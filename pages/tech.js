@@ -1,5 +1,4 @@
 import styles from '../styles/tech.module.css'
-// import Image from 'next/image'
 import Html from '../assets/html5.svg'
 import Css from '../assets/css3.svg'
 import JS from '../assets/javascript.svg'

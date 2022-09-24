@@ -1,12 +1,13 @@
 import styles from '../styles/about.module.css'
 import pic from '../assets/profile-pic.PNG'
+import Image from 'next/image'
 
 export default function About(){
     return (
         <>
         <h2 className={styles.about_me_header}>About Me</h2>
         <div className={styles.about_me}>
-            <img className={styles.img} src={pic.src} alt='picture of Tom'></img>
+            <Image height={300} width={300}className={styles.img} src={pic.src} alt='picture of Tom'/>
       <span className={styles.about_me_info}>
         <p className={styles.about_me_text}>
           Hi, I'm Tom and I'm a developer who enjoys challenges
