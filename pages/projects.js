@@ -58,7 +58,7 @@ export default function Projects(){
         <>
         <h2 className={styles.projects_header}>Projects</h2>
         <div>
-        {projects.map((p)=>{return <Project projects={p}/>})}
+        {projects.map((p)=>{return <Project key={p.name} projects={p}/>})}
         </div>
         </>
     )
