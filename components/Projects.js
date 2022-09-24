@@ -8,7 +8,7 @@ return (
      {/* <h3 className={styles.project_name}>{projects.name}</h3> */}
     <div className={styles.project_con}>
         <div className={styles.imgbuttongroup}>
-        <Image className={styles.img} src={projects.img} alt={projects.name}></Image>
+        <Image layout='fill' className={styles.img} src={projects.img} alt={projects.name}></Image>
         <div className={styles.project_links}>
         {projects.live? <a
       href={projects.live}
@@ -38,7 +38,7 @@ return (
      <h3 className={styles.project_name}>{projects.name}</h3>
      <div className={styles.textarea_bottom}>
         <p>{projects.info}</p>
-        <div className={styles.portfolio_tech}>{tech ? tech.map((tech)=> {return <button key={index} className={styles.tech_used}>{tech}</button>}):null}
+        <div className={styles.portfolio_tech}>{tech ? tech.map((tech)=> {return <button key={tech} className={styles.tech_used}>{tech}</button>}):null}
         </div>
         </div>
 </div>

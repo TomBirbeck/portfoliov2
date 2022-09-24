@@ -17,3 +17,7 @@
     justify-content: space-around;
     flex-wrap: wrap;
 }
+
+.logos{
+    font-size: 6em;
+}
