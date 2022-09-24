@@ -1,0 +1,94 @@
+.projects_card{
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    height: 60vh;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    margin: 1rem;
+    /* background-color: var(--secondary-colour); */
+    /* background-color: var(--third-colour); */
+    background-color: rgb(212, 218, 194);
+    color: var(--primary-colour);
+}
+
+.project_imglinks{
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.project_links {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 0.2rem;
+}
+
+.project_con {
+    display: flex;
+    gap: 6rem;
+    justify-content: center;
+}
+
+.imgbuttongroup{
+    margin: 1rem 0;
+}
+.img {
+    height: 50vh;
+    width: 40vw;
+    /* margin: 0 1rem 1rem 1rem; */
+    border-radius: 1rem;
+    border: 2px solid var(--secondary-colour);
+}
+
+.textarea {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    width: 40vw;
+    margin: 1rem 0;
+    padding: 0 1rem 0 1rem;
+    border-radius: 1rem;
+    border: 2px solid var(--secondary-colour);
+    /* justify-content: space-between; */
+}
+
+.project_name {
+    text-align:center;
+    font-size: 1.3rem;
+    margin: 0.5rem 0 0 0;
+    text-decoration: underline;
+}
+
+.portfolio_tech {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.textarea_bottom {
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tech_used {
+    height: 2rem;
+    width: fit-content;
+    border-radius: 0.5rem;
+    background-color: var(--secondary-colour);
+    color: var(--primary-colour);
+}
+
+.links_buttons {
+    height: 2.5rem;
+    width: fit-content;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    background-color: var(--secondary-colour);
+    color: var(--primary-colour);
+}

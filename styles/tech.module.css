@@ -1,0 +1,19 @@
+.tech_header {
+    font-size: var(--section-header-size);
+    text-align: center;
+}
+
+.tech_con {
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    text-align: center;
+}
+
+.tech_section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

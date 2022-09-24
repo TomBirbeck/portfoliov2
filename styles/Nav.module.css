@@ -1,0 +1,22 @@
+.navbar {
+    position:sticky;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    /* background-color:  #35383b; */
+    color: var(--primary-colour);;
+    /* color:  #35383b; */
+    /* color: #f8aa18; */
+    /* background-color: #FB9039; */
+    background-color: var(--secondary-colour);
+    height: 3rem;
+    font-size: 1.6rem;
+    align-items: center;
+    padding-right: 1rem;
+    border-bottom: 1px solid var(--secondary-colour);
+}
+
+.navbar :hover {
+    scale: 1.1;
+    color: rgb(212, 218, 194);
+}
