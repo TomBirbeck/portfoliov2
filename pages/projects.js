@@ -31,6 +31,7 @@ const projects = [
     {
       name: 'Topscorers',
       img: scorer.src,
+      live: 'https://topscorers.netlify.app/',
       frontend:
         'https://github.com/TomBirbeck/topscorer/tree/main/backend',
       backend:
