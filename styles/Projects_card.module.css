@@ -91,4 +91,10 @@
     font-size: 1.2rem;
     background-color: var(--secondary-colour);
     color: var(--primary-colour);
+    border: solid 1px var(--third-colour)
 }
+
+.link_text :hover {
+        color: rgb(212, 218, 194);
+        scale: 1.1;
+      }
