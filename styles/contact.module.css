@@ -2,3 +2,51 @@
     font-size: var(--section-header-size);
     text-align: center;
 }
+
+.contact_page {
+    display: flex;
+    flex-direction: column;
+}
+
+.form {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    width: 50vw;
+    gap: 0.25rem;
+}
+
+.links {
+    margin-top: 5rem;
+    flex-direction: row;
+    align-self: center;
+}
+
+.form input {
+    border-radius: 0.5rem;
+    background-color:  rgb(212, 218, 194);
+
+}
+
+.form textarea {
+    min-height: 20vh;
+    border-radius: 0.5rem;
+    background-color:  rgb(212, 218, 194);
+}
+
+.button {
+    font-size: 1.2rem;
+    background-color: var(--secondary-colour);
+    color: var(--primary-colour);
+    width: 8rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    border: 2px solid var(--third-colour);
+    align-self: center;
+}
+
+  
+.button :hover {
+    color: rgb(212, 218, 194);
+    scale: 1.1;
+  }
