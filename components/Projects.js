@@ -11,6 +11,7 @@ return (
         <Image height={330} width={500} className={styles.img} src={projects.img} alt={projects.name}/>
         <div className={styles.project_links}>
         {projects.live? <a
+        className={styles.link_text}
       href={projects.live}
       rel='noopener noreferrer'
       target='_blank'
@@ -18,6 +19,7 @@ return (
       <button className={styles.links_buttons}>Live site</button>
     </a>: null}
     {projects.frontend? <a
+    className={styles.link_text}
       href={projects.frontend}
       rel='noopener noreferrer'
       target='_blank'
@@ -25,6 +27,7 @@ return (
       <button className={styles.links_buttons}>Frontend Source</button>
     </a>: null}
     {projects.backend? <a
+    className={styles.link_text}
       href={projects.backend}
       rel='noopener noreferrer'
       target='_blank'

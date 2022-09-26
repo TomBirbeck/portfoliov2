@@ -55,13 +55,15 @@ export default function Contact(){
 <ContactForm />
 <div className={styles.links}>
             {/* Linkedin */}
-            <a href='https://www.linkedin.com/in/tom-birbeck'
+            <a className={styles.link_text}
+            href='https://www.linkedin.com/in/tom-birbeck'
           rel='noopener noreferrer'
           target='_blank'><LinkedinLogo style={{fontSize: '6em'}} />
             </a>
             
             {/* Github */}
             <a
+            className={styles.link_text}
           href='https://github.com/TomBirbeck'
           rel='noopener noreferrer'
           target='_blank'
