@@ -93,11 +93,11 @@ font-size: 1.2rem;
 }
 
 .title {
-  animation: 3s slide-right 0.5s forwards;
+  animation: 3s slide-right 0.3s forwards;
   transform: translateX(120%);
 }
 .title2 {
-  animation: 3s slide-right 1.5s forwards;
+  animation: 3s slide-right 1.3s forwards;
   transform: translateX(120%);
 }
 
