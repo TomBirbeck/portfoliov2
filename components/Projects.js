@@ -4,7 +4,7 @@ import Image from 'next/image'
 export default function Project({projects}){
     const tech = projects.tech
 return (
-    <>
+    <div className={styles.box}>
      {/* <h3 className={styles.project_name}>{projects.name}</h3> */}
     <div className={styles.project_con}>
         <div className={styles.imgbuttongroup}>
@@ -46,6 +46,6 @@ return (
         </div>
 </div>
 </div>
-    </>
+    </div>
   );
 }

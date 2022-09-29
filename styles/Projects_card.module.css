@@ -1,3 +1,7 @@
+.box {
+    display: flex;
+    flex-wrap: wrap;
+}
 .projects_card{
     display: flex;
     flex-direction: column;
@@ -35,11 +39,8 @@
     margin: 1rem 0;
 }
 .img {
-    /* height: 50vh; */
-    /* width: 40vw; */
-    /* margin: 0 1rem 1rem 1rem; */
     border-radius: 1rem;
-    border: 2px solid var(--secondary-colour);
+    border: 10px solid var(--secondary-colour);
 }
 
 .textarea {

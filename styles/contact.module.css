@@ -25,6 +25,9 @@
 .form input {
     border-radius: 0.5rem;
     background-color:  rgb(212, 218, 194);
+    width: 40%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
 
 }
 
@@ -32,6 +35,8 @@
     min-height: 20vh;
     border-radius: 0.5rem;
     background-color:  rgb(212, 218, 194);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
 }
 
 .button {

@@ -14,7 +14,7 @@ const projects = [
       frontend:
         'https://github.com/SchoolOfCode/final-project_front-end-five-guys',
       backend: 'https://github.com/SchoolOfCode/final-project_back-end-five-guys',
-      info: 'Worked in a team of five for four weeks to produce an app to help reduce the amount of errors made when patients were being prescribed medication. We designed the application for a browser on the doctor side and a mobile on the patient side.',
+      info: 'I worked in a team of five for four weeks to produce an app to help reduce the amount of errors made when patients were being prescribed medication. We designed the application for a browser on the doctor side and a mobile on the patient side.',
       tech: [ 'React', 'MaterialUI', 'CSS', 'Netlify', 'Node.js', 'Express.js', 'Heroku', 'Auth0', 'Jest', 'SuperTest', 'Cypress',]
     //   techfront: 'Frontend: React, MaterialUI, CSS, Cypress, Auth0, Netlify.',
     //   techback:
@@ -25,7 +25,7 @@ const projects = [
       img: scrabble.src,
       live: 'https://scrabbledit.netlify.app/',
       frontend: 'https://github.com/TomBirbeck/scrabbledit',
-      info: "A PWA that will calculate the scrabble score for any word that is entered and will allow up to four players to keep track of their cumulative scores as a game progresses. I enjoyed the challenge of trying to get all the functioning parts working together.",
+      info: "A PWA that will calculate the scrabble score for any word that is entered and will allow up to four players to keep track of their cumulative scores as a game progresses. I enjoyed the challenge of trying to get all the functioning parts working together using useState and useContext.",
       tech: ['React', 'CSS', 'Netlify'],
     },
     {
@@ -33,7 +33,7 @@ const projects = [
       img: scorer.src,
       live: 'https://topscorers.netlify.app/',
       frontend:
-        'https://github.com/TomBirbeck/topscorer/tree/main/backend',
+        'https://topscorers.netlify.app/',
       backend:
         'https://github.com/TomBirbeck/topscorer/tree/main/backend',
       info: `A full stack application that allows users to search through the top scorers in the English Premier League from the 1992/93 season to present day. The React front end, hosted on Netlify, utilisises a stand alone API built using a TDD method, that I'm looking to extend to be able to supply data from the top 5 European leagues over the same time period. The database is hosted on Heroku.`,
