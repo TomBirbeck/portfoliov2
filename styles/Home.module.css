@@ -1,9 +1,8 @@
-
 .buttons {
   /* background-color: #FB9039; */
   background-color: var(--secondary-colour);
-color: var(--primary-colour);
-font-size: 1.2rem;
+  color: var(--primary-colour);
+  font-size: 1.2rem;
   height: 3rem;
   width: 8rem;
   border-radius: 0.5rem;
@@ -26,7 +25,7 @@ font-size: 1.2rem;
 }
 
 .main {
-  min-height: 100vh;
+  min-height: 80vh;
   padding: 4rem 0;
   flex: 1;
   display: flex;
@@ -76,9 +75,9 @@ font-size: 1.2rem;
   border-top: 1.5px solid var(--third-colour);
   padding: 1.5rem 0;
   transition: width 2s, height 2s, transform 2s;
-  color:var(--primary-colour);
+  color: var(--primary-colour);
   -webkit-text-stroke-width: 1px;
--webkit-text-stroke-color: var(--secondary-colour);
+  -webkit-text-stroke-color: var(--secondary-colour);
 }
 .title2 {
   text-align: center;
