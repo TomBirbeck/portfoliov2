@@ -1,13 +1,14 @@
 .about_me {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 3rem;
-    align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12rem;
+  align-items: center;
+  padding: 5rem;
 }
 
 .about_me_header {
-    text-align: center;
-    font-size: var(--section-header-size);
+  text-align: center;
+  font-size: var(--section-header-size);
 }
 
 .about_me_links {
@@ -15,12 +16,13 @@
 }
 
 .img {
-    margin-top: 1rem;
-    height: 300px;
-    width: 300px;
-    border-radius: 20%;
+  margin-top: 1rem;
+  margin-left: 3rem;
+  height: 300px;
+  width: 300px;
+  border-radius: 20%;
 }
 .about_me_info {
-    width: 60vw;
-    font-size: 1.1rem;
+  width: 50vw;
+  font-size: 1.1rem;
 }
