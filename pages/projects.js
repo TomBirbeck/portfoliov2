@@ -5,6 +5,7 @@ import medi from '../assets/medi-check.PNG'
 import port from '../assets/week9.PNG'
 import scrabble from '../assets/scrabbledit.PNG'
 import scorer from '../assets/topscorers.PNG'
+import oneshop from '../assets/oneshop.PNG'
 
 const projects = [
     {
@@ -40,6 +41,18 @@ const projects = [
       tech: ['React', 'CSS', 'Netlify', 'Node.js', 'Express.js', 'Heroku', 'Jest', 'Supertest', 'Postman'],
     },
     {
+      name: 'One Stop Shop',
+      img: oneshop.src,
+      live: 'https://one-stop-shopping.netlify.app/',
+      frontend:
+        'https://github.com/TomBirbeck/shopping-cart',
+      info:'A small multipage e-commerce project where I used React, Bootstrap, Typescript and the fakestoreAPI to create a site that allows users to add/remove items in a cart. Users are also able to filter items by their category. Currently working on integrating a payment system using Stripe',
+      tech: ['React', 'Bootstrap', 'Typescript'],
+    //   techfront: 'Frontend: React, CSS, Fontawesome, Jest.',
+    //   techback:
+    //     'Backend: Node.js, Express.js, dotenv, Heroku, Jest, Supertest, Postman, cors.',
+    },
+    {
       name: 'Portfol.io',
       img: port.src,
       frontend:
@@ -52,6 +65,7 @@ const projects = [
     //   techback:
     //     'Backend: Node.js, Express.js, dotenv, Heroku, Jest, Supertest, Postman, cors.',
     },
+    
   ];
 
 export default function Projects(){
