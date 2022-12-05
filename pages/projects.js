@@ -8,6 +8,26 @@ import scorer from '../assets/topscorers.PNG'
 import oneshop from '../assets/oneshop.PNG'
 
 const projects = [
+  {
+    name: 'Scrabbledit',
+    img: scrabble.src,
+    live: 'https://scrabbledit.netlify.app/',
+    frontend: 'https://github.com/TomBirbeck/scrabbledit',
+    info: "A PWA that will calculate the scrabble score for any word that is entered and will allow up to four players to keep track of their cumulative scores as a game progresses. I enjoyed the challenge of trying to get all the functioning parts working together.",
+    tech: ['React', 'CSS', 'Netlify'],
+  },
+  {
+    name: 'One Stop Shop',
+    img: oneshop.src,
+    live: 'https://one-stop-shopping.netlify.app/',
+    frontend:
+      'https://github.com/TomBirbeck/shopping-cart',
+    info:'A small multipage e-commerce project where I used React, Bootstrap, Typescript and the fakestoreAPI to create a site that allows users to add/remove items in a cart. Users are also able to filter items by their category. Currently working on integrating a payment system using Stripe',
+    tech: ['React', 'Bootstrap', 'Typescript'],
+  //   techfront: 'Frontend: React, CSS, Fontawesome, Jest.',
+  //   techback:
+  //     'Backend: Node.js, Express.js, dotenv, Heroku, Jest, Supertest, Postman, cors.',
+  },
     {
       name: 'Medi-Check',
       img: medi.src,
@@ -15,19 +35,11 @@ const projects = [
       frontend:
         'https://github.com/SchoolOfCode/final-project_front-end-five-guys',
       backend: 'https://github.com/SchoolOfCode/final-project_back-end-five-guys',
-      info: 'Worked in a team of five for four weeks to produce an app to help reduce the amount of errors made when patients were being prescribed medication. We designed the application for a browser on the doctor side and a mobile on the patient side.',
+      info: 'Worked in a team of five for four weeks to produce an app to help reduce the amount of errors made when patients were being prescribed medication. We designed the application for a browser on the doctor side and a mobile on the patient side. Currently only the frontend is available as we seek to redeploy the backend using a new service provider',
       tech: [ 'React', 'MaterialUI', 'CSS', 'Netlify', 'Node.js', 'Express.js', 'Heroku', 'Auth0', 'Jest', 'SuperTest', 'Cypress',]
     //   techfront: 'Frontend: React, MaterialUI, CSS, Cypress, Auth0, Netlify.',
     //   techback:
     //     'Backend: Node.js, Express.js, dotenv, Heroku, Jest, Supertest, Postman, cors.',
-    },
-    {
-      name: 'Scrabbledit',
-      img: scrabble.src,
-      live: 'https://scrabbledit.netlify.app/',
-      frontend: 'https://github.com/TomBirbeck/scrabbledit',
-      info: "A PWA that will calculate the scrabble score for any word that is entered and will allow up to four players to keep track of their cumulative scores as a game progresses. I enjoyed the challenge of trying to get all the functioning parts working together.",
-      tech: ['React', 'CSS', 'Netlify'],
     },
     {
       name: 'Topscorers',
@@ -37,20 +49,8 @@ const projects = [
         'https://github.com/TomBirbeck/topscorer/tree/main/backend',
       backend:
         'https://github.com/TomBirbeck/topscorer/tree/main/backend',
-      info: `A full stack application that allows users to search through the top scorers in the English Premier League from the 1992/93 season to present day. The React front end, hosted on Netlify, utilisises a stand alone API built using a TDD method, that I'm looking to extend to be able to supply data from the top 5 European leagues over the same time period. The database is hosted on Heroku.`,
+      info: `A full stack application that allows users to search through the top scorers in the English Premier League from the 1992/93 season to present day. The React front end, hosted on Netlify, utilisises a stand alone API built using a TDD method, that I'm looking to extend to be able to supply data from the top 5 European leagues over the same time period. The database is hosted on Heroku. Currently only the frontend is available as I seek to redeploy the backend using a new service provider`,
       tech: ['React', 'CSS', 'Netlify', 'Node.js', 'Express.js', 'Heroku', 'Jest', 'Supertest', 'Postman'],
-    },
-    {
-      name: 'One Stop Shop',
-      img: oneshop.src,
-      live: 'https://one-stop-shopping.netlify.app/',
-      frontend:
-        'https://github.com/TomBirbeck/shopping-cart',
-      info:'A small multipage e-commerce project where I used React, Bootstrap, Typescript and the fakestoreAPI to create a site that allows users to add/remove items in a cart. Users are also able to filter items by their category. Currently working on integrating a payment system using Stripe',
-      tech: ['React', 'Bootstrap', 'Typescript'],
-    //   techfront: 'Frontend: React, CSS, Fontawesome, Jest.',
-    //   techback:
-    //     'Backend: Node.js, Express.js, dotenv, Heroku, Jest, Supertest, Postman, cors.',
     },
     {
       name: 'Portfol.io',
