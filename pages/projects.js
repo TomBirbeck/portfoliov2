@@ -9,6 +9,19 @@ import oneshop from '../assets/oneshop.PNG'
 
 const projects = [
   {
+      name: 'Medi-Check',
+      img: medi.src,
+      live: 'https://medi-check.netlify.app/',
+      frontend:
+        'https://github.com/SchoolOfCode/final-project_front-end-five-guys',
+      backend: 'https://github.com/SchoolOfCode/final-project_back-end-five-guys',
+      info: 'Worked in a team of five for four weeks to produce an app to help reduce the amount of errors made when patients were being prescribed medication. We designed the patient side for mobile first and the doctor side for computer usage. The database and servers are hosted using railway.',
+      tech: [ 'React', 'MaterialUI', 'CSS', 'Netlify', 'Node.js', 'Express.js', 'Railway', 'Auth0', 'Jest', 'SuperTest', 'Cypress',]
+    //   techfront: 'Frontend: React, MaterialUI, CSS, Cypress, Auth0, Netlify.',
+    //   techback:
+    //     'Backend: Node.js, Express.js, dotenv, Heroku, Jest, Supertest, Postman, cors.',
+    },
+  {
     name: 'Scrabbledit',
     img: scrabble.src,
     live: 'https://scrabbledit.netlify.app/',
@@ -29,19 +42,6 @@ const projects = [
   //     'Backend: Node.js, Express.js, dotenv, Heroku, Jest, Supertest, Postman, cors.',
   },
     {
-      name: 'Medi-Check',
-      img: medi.src,
-      live: 'https://medi-check.netlify.app/',
-      frontend:
-        'https://github.com/SchoolOfCode/final-project_front-end-five-guys',
-      backend: 'https://github.com/SchoolOfCode/final-project_back-end-five-guys',
-      info: 'Worked in a team of five for four weeks to produce an app to help reduce the amount of errors made when patients were being prescribed medication. We designed the application for a browser on the doctor side and a mobile on the patient side. Currently only the frontend is available as we seek to redeploy the backend using a new service provider',
-      tech: [ 'React', 'MaterialUI', 'CSS', 'Netlify', 'Node.js', 'Express.js', 'Heroku', 'Auth0', 'Jest', 'SuperTest', 'Cypress',]
-    //   techfront: 'Frontend: React, MaterialUI, CSS, Cypress, Auth0, Netlify.',
-    //   techback:
-    //     'Backend: Node.js, Express.js, dotenv, Heroku, Jest, Supertest, Postman, cors.',
-    },
-    {
       name: 'Topscorers',
       img: scorer.src,
       live: 'https://topscorers.netlify.app/',
@@ -49,8 +49,8 @@ const projects = [
         'https://github.com/TomBirbeck/topscorer/tree/main/backend',
       backend:
         'https://github.com/TomBirbeck/topscorer/tree/main/backend',
-      info: `A full stack application that allows users to search through the top scorers in the English Premier League from the 1992/93 season to present day. The React front end, hosted on Netlify, utilisises a stand alone API built using a TDD method, that I'm looking to extend to be able to supply data from the top 5 European leagues over the same time period. The database is hosted on Heroku. Currently only the frontend is available as I seek to redeploy the backend using a new service provider`,
-      tech: ['React', 'CSS', 'Netlify', 'Node.js', 'Express.js', 'Heroku', 'Jest', 'Supertest', 'Postman'],
+      info: `A full stack application that allows users to search through the top scorers in the English Premier League from the 1992/93 season to present day. The React front end, hosted on Netlify, utilisises a stand alone API built using a TDD method, that I'm looking to extend to be able to supply data from the top 5 European leagues over the same time period. The database is hosted using ElephantSQL, wih the server hosted through Render.`,
+      tech: ['React', 'CSS', 'Netlify', 'Node.js', 'Express.js', 'ElephantSQL', 'Render', 'Jest', 'Supertest', 'Postman'],
     },
     {
       name: 'Portfol.io',
