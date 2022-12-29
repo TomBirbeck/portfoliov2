@@ -9,6 +9,7 @@ import NodeLogo from '../assets/nodejs.svg'
 import TypeLogo from '../assets/typescript.svg'
 import PostLogo from '../assets/postgresql.svg'
 import ReactLogo from '../assets/react.svg'
+import Tailwind from '../assets/tailwind.svg'
 
 export default function Tech(){
     return (
@@ -80,7 +81,13 @@ export default function Tech(){
             <p>MATERIALUI</p>
             </div>
             </div>
-
+            <div>
+                {/* tailwindCSS */}
+            <div>
+            <Tailwind className={styles.logos}/>
+            <p>Tailwind CSS</p>
+            </div>
+            </div>
         </div>
         </>
     )
