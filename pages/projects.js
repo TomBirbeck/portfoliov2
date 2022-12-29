@@ -4,7 +4,7 @@ import styles from '../styles/projects.module.css'
 import medi from '../assets/medi-check.PNG'
 import port from '../assets/week9.PNG'
 import scrabble from '../assets/scrabbledit.PNG'
-import scorer from '../assets/topscorers.PNG'
+import scorer from '../assets/topscorer-logo.PNG'
 import oneshop from '../assets/oneshop.PNG'
 import study from '../assets/studystaxx.PNG'
 
