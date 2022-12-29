@@ -6,6 +6,7 @@ import port from '../assets/week9.PNG'
 import scrabble from '../assets/scrabbledit.PNG'
 import scorer from '../assets/topscorers.PNG'
 import oneshop from '../assets/oneshop.PNG'
+import study from '../assets/studystaxx.PNG'
 
 const projects = [
   {
@@ -28,6 +29,15 @@ const projects = [
     frontend: 'https://github.com/TomBirbeck/scrabbledit',
     info: "A PWA that will calculate the scrabble score for any word that is entered and will allow up to four players to keep track of their cumulative scores as a game progresses. I enjoyed the challenge of trying to get all the functioning parts working together.",
     tech: ['React', 'CSS', 'Netlify'],
+  },
+  {
+    name: 'Study Staxx',
+    img: study.src,
+    live: 'https://studystaxx.netlify.app/',
+    frontend: 'https://github.com/TomBirbeck/homework-helper',
+    backend: 'https://github.com/TomBirbeck/homework-helper-backend',
+    info: "A web app written in Typescript that enables a student to create and update a list of study tasks that they have outstanding, the student side is then linked to a parent side, where progress can be tracked and tasks can be removed when completed. Database is hosted on render",
+    tech: ['React', 'Typescript', 'Tailwind CSS', 'Netlify', 'Node.js', 'Express.js', 'Render'],
   },
   {
     name: 'One Stop Shop',
