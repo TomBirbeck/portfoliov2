@@ -5,7 +5,7 @@ import medi from '../assets/medi-check.PNG'
 import port from '../assets/week9.PNG'
 import scrabble from '../assets/scrabbledit.PNG'
 import scorer from '../assets/topscorer-logo.PNG'
-import oneshop from '../assets/oneshop.PNG'
+import oneshop from '../assets/1-Stop.png'
 import study from '../assets/studystaxx.PNG'
 
 const projects = [
@@ -36,8 +36,8 @@ const projects = [
     live: 'https://studystaxx.netlify.app/',
     frontend: 'https://github.com/TomBirbeck/homework-helper',
     backend: 'https://github.com/TomBirbeck/homework-helper-backend',
-    info: "A web app written in Typescript that enables a student to create and update a list of study tasks that they have outstanding, the student side is then linked to a parent side, where progress can be tracked and tasks can be removed when completed. Database is hosted on render",
-    tech: ['React', 'Typescript', 'Tailwind CSS', 'Netlify', 'Node.js', 'Express.js', 'Render'],
+    info: "A web app written in Typescript that enables a student to create and update a list of study tasks that they have outstanding, the student side is then linked to a parent side, where progress can be tracked and tasks can be removed when completed. Database is hosted on render.",
+    tech: ['React', 'Typescript', 'Tailwind CSS', 'Netlify', 'Node.js', 'Express.js', 'Render', 'Thunder Client'],
   },
   {
     name: 'One Stop Shop',
@@ -45,7 +45,7 @@ const projects = [
     live: 'https://one-stop-shopping.netlify.app/',
     frontend:
       'https://github.com/TomBirbeck/shopping-cart',
-    info:'A small multipage e-commerce project where I used React, Bootstrap, Typescript and the fakestoreAPI to create a site that allows users to add/remove items in a cart. Users are also able to filter items by their category. Currently working on integrating a payment system using Stripe',
+    info:'A small multipage e-commerce project where I used React, Bootstrap, Typescript and the fakestoreAPI to create a site that allows users to add/remove items in a cart. Users are also able to filter items by their category. Currently working on integrating a payment system using Stripe.',
     tech: ['React', 'Bootstrap', 'Typescript'],
   //   techfront: 'Frontend: React, CSS, Fontawesome, Jest.',
   //   techback:
@@ -59,7 +59,7 @@ const projects = [
         'https://github.com/TomBirbeck/topscorer/tree/main/backend',
       backend:
         'https://github.com/TomBirbeck/topscorer/tree/main/backend',
-      info: `A full stack application that allows users to search through the top scorers in the English Premier League from the 1992/93 season to present day. The React front end, hosted on Netlify, utilisises a stand alone API built using a TDD method, that I'm looking to extend to be able to supply data from the top 5 European leagues over the same time period. The database is hosted using ElephantSQL, wih the server hosted through Render.`,
+      info: `A full stack application that allows users to search through the top scorers in the English Premier League from the 1992/93 season to present day. The React front end, hosted on Netlify, utilisises a stand alone API built using a TDD method, that I'm looking to extend to be able to supply data from the top 5 European leagues over the same time period. The database is hosted using ElephantSQL, with the server hosted through Render.`,
       tech: ['React', 'CSS', 'Netlify', 'Node.js', 'Express.js', 'ElephantSQL', 'Render', 'Jest', 'Supertest', 'Postman'],
     },
     {
@@ -69,7 +69,7 @@ const projects = [
         'https://github.com/SchoolOfCode/w9_frontend-project-tom-hannah-ben-and-idman',
       backend:
         'https://github.com/SchoolOfCode/w9_backend-project-tom-hannah-ben-and-idman',
-      info: 'Worked in a team of four for one week to produce an app to assist current boot-campers. We decided on a portfolio hosting website where users would be to view and upload portfolios at different experience levels, allowing people to always find something to help them and encourage them to keep going on their learing journey.',
+      info: 'I worked in a team of four for one week to produce an app to assist current boot-campers. We decided on a portfolio hosting website where users would be to view and upload portfolios at different experience levels, allowing people to always find something to help them and encourage them to keep going on their learning journey.',
       tech: ['React', 'CSS', 'Fontawesome', 'Node.js', 'Express.js', 'Heroku', 'Jest', 'Supertest', 'Postman'],
     //   techfront: 'Frontend: React, CSS, Fontawesome, Jest.',
     //   techback:
