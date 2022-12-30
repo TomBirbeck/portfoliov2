@@ -5,7 +5,7 @@ import medi from '../assets/medi-check.PNG'
 import port from '../assets/week9.PNG'
 import scrabble from '../assets/scrabbledit.PNG'
 import scorer from '../assets/topscorerlogo.PNG'
-import oneshop from '../assets/oneshop.PNG'
+import oneshop from '../assets/onestop.PNG'
 import study from '../assets/studystaxx.PNG'
 
 const projects = [
