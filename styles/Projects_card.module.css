@@ -1,6 +1,7 @@
 .projects_card {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   width: 40vw;
   height: 50vh;
   border-radius: 1rem;
@@ -61,6 +62,7 @@
   padding: 0 1rem 0 1rem;
   border-radius: 1rem;
   border: 2px solid var(--secondary-colour);
+  overflow: hidden;
   /* justify-content: space-between; */
 }
 

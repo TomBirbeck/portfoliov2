@@ -50,3 +50,25 @@
 }
 
 
+@media only screen and (max-width:600px) {
+  .form {
+    /* margin-top: 5rem; */
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    width: 80vw;
+    gap: 0.25rem;
+  }
+  
+}
+@media only screen and (min-width:601px) and (max-width:1000px) {
+  .form {
+    /* margin-top: 5rem; */
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    width: 50vw;
+    gap: 0.25rem;
+  }
+  
+}
