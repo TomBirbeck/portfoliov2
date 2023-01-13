@@ -4,14 +4,19 @@ import styles from '../styles/projects.module.css'
 import medi from '../assets/medi-check.PNG'
 import port from '../assets/week9.PNG'
 import scrabble from '../assets/scrabbledit.PNG'
+import scrabbleTwo from '../assets/scrabbledit2.PNG'
 import scorer from '../assets/topscorerlogo.PNG'
+import scorerTwo from '../assets/topscorerhome.PNG'
 import oneshop from '../assets/onestop.PNG'
+import oneshopTwo from '../assets/onestopshop.PNG'
 import study from '../assets/studystaxx.PNG'
+import studyTwo from '../assets/studyhome.PNG'
 
 const projects = [
   {
     name: 'Study Staxx',
     img: study.src,
+    imgTwo: studyTwo.src,
     live: 'https://studystaxx.netlify.app/',
     frontend: 'https://github.com/TomBirbeck/homework-helper',
     backend: 'https://github.com/TomBirbeck/homework-helper-backend',
@@ -21,6 +26,7 @@ const projects = [
   {
       name: 'Medi-Check',
       img: medi.src,
+      imgTwo: medi.src,
       live: 'https://medi-check.netlify.app/',
       frontend:
         'https://github.com/SchoolOfCode/final-project_front-end-five-guys',
@@ -34,6 +40,7 @@ const projects = [
   {
     name: 'Scrabbledit',
     img: scrabble.src,
+    imgTwo: scrabbleTwo.src,
     live: 'https://scrabbledit.netlify.app/',
     frontend: 'https://github.com/TomBirbeck/scrabbledit',
     info: "A PWA that will calculate the scrabble score for any word that is entered and will allow up to four players to keep track of their cumulative scores as a game progresses. I enjoyed the challenge of trying to get all the functioning parts working together.",
@@ -42,6 +49,7 @@ const projects = [
   {
     name: 'One Stop Shop',
     img: oneshop.src,
+    imgTwo: oneshopTwo.src,
     live: 'https://one-stop-shopping.netlify.app/',
     frontend:
       'https://github.com/TomBirbeck/shopping-cart',
@@ -54,6 +62,7 @@ const projects = [
     {
       name: 'Topscorers',
       img: scorer.src,
+      imgTwo: scorerTwo.src,
       live: 'https://topscorers.netlify.app/',
       frontend:
         'https://github.com/TomBirbeck/topscorer/tree/main/backend',
@@ -65,6 +74,7 @@ const projects = [
     {
       name: 'Portfol.io',
       img: port.src,
+      imgTwo: port.src,
       frontend:
         'https://github.com/SchoolOfCode/w9_frontend-project-tom-hannah-ben-and-idman',
       backend:

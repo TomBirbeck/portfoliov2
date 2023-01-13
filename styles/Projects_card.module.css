@@ -43,6 +43,15 @@
   border: 2px solid var(--secondary-colour);
 }
 
+.img :hover {
+  /* height: 50vh; */
+  /* width: 40vw; */
+  /* margin: 0 1rem 1rem 1rem; */
+  border-radius: 5rem;
+  border: 5px solid var(--secondary-colour);
+  scale: 1.1;
+}
+
 .textarea {
   display: flex;
   flex-direction: column;
