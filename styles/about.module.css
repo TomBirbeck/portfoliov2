@@ -1,7 +1,7 @@
 .about_me {
   display: flex;
   flex-wrap: wrap;
-  gap: 12rem;
+  gap: 2rem;
   align-items: center;
   padding: 5rem;
 }
@@ -26,3 +26,24 @@
   width: 50vw;
   font-size: 1.1rem;
 }
+
+@media screen and (max-width:989px){
+  .about_me {
+    padding: 0;
+  }
+  .about_me_info {
+    width: 100vw;
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen and (min-width:990px){
+  .about_me {
+    padding: 0;
+  }
+  .about_me_info {
+    width: 50vw;
+    font-size: 1.1rem;
+  }
+}
+  
