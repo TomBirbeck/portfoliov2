@@ -25,6 +25,7 @@
 .about_me_info {
   width: 50vw;
   font-size: 1.1rem;
+  padding-left: 2rem;
 }
 
 @media screen and (max-width:989px){
