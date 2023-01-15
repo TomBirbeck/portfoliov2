@@ -115,3 +115,20 @@
   color: rgb(212, 218, 194);
   scale: 1.1;
 }
+
+@media screen and (max-width:900px) {
+  .project_con {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    place-items: center;
+    gap: 2em;
+  }
+  .textarea {
+    width: 100%;
+    height: fit-content;
+    padding-bottom: 1rem;
+  }
+  .links_buttons {
+    font-size: 1rem;
+  }
+}
