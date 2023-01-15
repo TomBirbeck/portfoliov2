@@ -20,3 +20,37 @@
     scale: 1.1;
     color: rgb(212, 218, 194);
 }
+
+.mobileNav {
+    position: fixed;
+    top: 1px;
+    right: 5px;
+    font-size: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+    margin-bottom: 0.5rem;
+}
+
+.dropdown {
+    position: absolute;
+    top: 2.5rem;
+    right: 0.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    z-index: 10;
+    width: fit-content;
+    height: fit-content;
+    padding: 2rem;
+    background: var(--primary-colour);
+    border: solid 1px var(--secondary-colour);
+    border-radius: 1rem;
+    gap:0.5rem;
+}
+
+.dropdown :hover {
+    color: rgb(212, 218, 194);
+}
