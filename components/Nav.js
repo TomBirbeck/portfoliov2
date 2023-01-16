@@ -22,25 +22,45 @@ export default function NavBar(){
       return (
         <>
           {windowSize > 700 ?
-          <div className={styles.navbar}>
-            <Link href = '/'>Home |</Link>
-            <Link href = '/contact'>Contact Me |</Link>
-            <Link href = '/projects'>Projects |</Link>
+            <ul className={styles.navbar}>
+              <li>
+              <Link href = '/'>Home |</Link>
+                </li>
+                <li>
+                <Link href = '/contact'>Contact Me |</Link>
+                </li>
+                <li>
+                <Link href = '/projects'>Projects |</Link>
+                </li>
+                <li>
             <Link href = '/tech'>Tech Stack |</Link>
+                </li>
+                <li>
             <Link href = '/about'>About Me |</Link>
-        </div> :
+                </li>
+            </ul>:
         <>
         <div className={styles.mobileNav} onClick={()=>{setMenu(!menu)}}>
           <GiHamburgerMenu/>
           </div>
           {menu &&
-          <div className={styles.dropdown}>
-        <Link href = '/'><span onClick={()=>{setMenu(false)}}>Home</span></Link>
+          <ul className={styles.dropdown}>
+            <li>
+            <Link href = '/'><span onClick={()=>{setMenu(false)}}>Home</span></Link>
+            </li>
+            <li>
         <Link href = '/contact'><span onClick={()=>{setMenu(false)}}>Contact Me</span></Link>
+            </li>
+            <li>
             <Link href = '/projects'><span onClick={()=>{setMenu(false)}}>Projects</span></Link>
+            </li>
+            <li>
             <Link href = '/tech'><span onClick={()=>{setMenu(false)}}>Tech Stack</span></Link>
+            </li>
+            <li>
             <Link href = '/about'><span onClick={()=>{setMenu(false)}}>About Me</span></Link>
-            </div>
+            </li>
+            </ul>
           }
           </>
         
