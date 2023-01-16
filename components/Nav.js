@@ -43,27 +43,26 @@ export default function NavBar(){
         <div className={styles.mobileNav} onClick={()=>{setMenu(!menu)}}>
           <GiHamburgerMenu/>
           </div>
-          {menu &&
+          <div hidden={menu}>
           <ul className={styles.dropdown}>
-            <li>
-            <Link href = '/'><span onClick={()=>{setMenu(false)}}>Home</span></Link>
+            <li onClick={()=>{setMenu(true)}}>
+            <Link href = '/'>Home</Link>
             </li>
-            <li>
-        <Link href = '/contact'><span onClick={()=>{setMenu(false)}}>Contact Me</span></Link>
+            <li onClick={()=>{setMenu(true)}}>
+        <Link href = '/contact'>Contact Me</Link>
             </li>
-            <li>
-            <Link href = '/projects'><span onClick={()=>{setMenu(false)}}>Projects</span></Link>
+            <li onClick={()=>{setMenu(true)}}>
+            <Link href = '/projects'>Projects</Link>
             </li>
-            <li>
-            <Link href = '/tech'><span onClick={()=>{setMenu(false)}}>Tech Stack</span></Link>
+            <li onClick={()=>{setMenu(true)}}>
+            <Link href = '/tech'>Tech Stack</Link>
             </li>
-            <li>
-            <Link href = '/about'><span onClick={()=>{setMenu(false)}}>About Me</span></Link>
+            <li onClick={()=>{setMenu(true)}}>
+            <Link href = '/about'>About Me</Link>
             </li>
             </ul>
-          }
+          </div>
           </>
-        
           }
         </>
     ) 
