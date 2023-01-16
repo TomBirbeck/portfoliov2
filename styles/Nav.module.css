@@ -1,19 +1,21 @@
 .navbar {
-    position:sticky;
+    position:fixed;
+    top: 0;
+    right:0;
+    width: 100vw;
     display: flex;
     justify-content: flex-end;
     gap: 1rem;
-    /* background-color:  #35383b; */
-    color: var(--primary-colour);;
-    /* color:  #35383b; */
-    /* color: #f8aa18; */
-    /* background-color: #FB9039; */
+    color: var(--primary-colour);
     background-color: var(--secondary-colour);
     height: 3rem;
     font-size: 1.6rem;
     align-items: center;
     padding-right: 1rem;
     border-bottom: 1px solid var(--secondary-colour);
+    margin-top: 0;
+    list-style: none;
+    z-index: 10;
 }
 
 .navbar :hover {
@@ -49,6 +51,7 @@
     border: solid 1px var(--secondary-colour);
     border-radius: 1rem;
     gap:0.5rem;
+    list-style: none;
 }
 
 .dropdown :hover {

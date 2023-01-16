@@ -12,9 +12,9 @@ export default function Home() {
         <meta name='description' content='Portfolio for Tom Birbeck' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
-      <Image src={logo} alt='Tom Birbeck Logo' height={150} width={150}/>
 
       <main className={styles.main}>
+      <Image src={logo} alt='Tom Birbeck Logo' height={150} width={150}/>
         <h1 className={styles.title}>Tom Birbeck</h1>
         <h2 className={styles.title2}>Full Stack Software Developer</h2>
 
