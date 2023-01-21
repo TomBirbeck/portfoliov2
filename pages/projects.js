@@ -11,7 +11,8 @@ import oneshop from '../assets/onestop.PNG'
 import oneshopTwo from '../assets/onestopshop.PNG'
 import study from '../assets/studystaxx.PNG'
 import studyTwo from '../assets/studyhome.PNG'
-import quizOne from '../assets/quizapp.PNG'
+import quizOne from '../assets/quizapplogo.PNG'
+import quizTwo from '../assets/quizapp.PNG'
 
 const projects = [
   {
@@ -56,9 +57,6 @@ const projects = [
       'https://github.com/TomBirbeck/shopping-cart',
     info:'A small multipage e-commerce project where I used React, Bootstrap, Typescript and the fakestoreAPI to create a site that allows users to add/remove items in a cart. Users are also able to filter items by their category. Currently working on integrating a payment system using Stripe.',
     tech: ['React', 'Bootstrap', 'Typescript'],
-  //   techfront: 'Frontend: React, CSS, Fontawesome, Jest.',
-  //   techback:
-  //     'Backend: Node.js, Express.js, dotenv, Heroku, Jest, Supertest, Postman, cors.',
   },
     {
       name: 'Topscorers',
@@ -75,11 +73,11 @@ const projects = [
     {
       name: "It's a Quiz",
       img: quizOne.src,
-      imgTwo: quizOne.src,
+      imgTwo: quizTwo.src,
       live: 'https://toms-its-a-quiz.netlify.app/',
       frontend:
         'https://github.com/TomBirbeck/topscorer/tree/main/backend',
-      info: "A responsive web application made using HTML, CSS and Javascript. The app sources quiz questions from an api. Players are able to select from multiple quiz lengths and categories. The app will track the question number, current score and a player's high score, which are tracked independently so a user can accurately judge how they do in each category for each quiz length. The high scores are store using local storage.",
+      info: "A responsive web application made using HTML, CSS and Javascript. The app sources quiz questions from an api. Players are able to select from multiple quiz lengths and categories. The app will track the question number, current score and a player's high score, which are tracked independently so a user can accurately judge how they do in each category for each quiz length. The high scores are stored using local storage.",
       tech: ['CSS', 'HTML', 'JavaScript'],
     },
     {
