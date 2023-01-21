@@ -77,7 +77,7 @@ const projects = [
       live: 'https://toms-its-a-quiz.netlify.app/',
       frontend:
         'https://github.com/TomBirbeck/topscorer/tree/main/backend',
-      info: "A responsive web application made using HTML, CSS and Javascript. The app sources quiz questions from an api. Players are able to select from multiple quiz lengths and categories. The app will track the question number, current score and a player's high score, which are tracked independently so a user can accurately judge how they do in each category for each quiz length. The high scores are stored using local storage.",
+      info: "A responsive web application made using HTML, CSS and Javascript. Players are able to select from multiple quiz lengths and categories. The app will track the question number, current score and a player's high score, which are tracked independently so a user can accurately judge how they do in each category for each quiz length. The high scores are stored using local storage. The app sources quiz questions from an api.",
       tech: ['CSS', 'HTML', 'JavaScript'],
     },
     {
