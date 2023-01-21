@@ -27,8 +27,8 @@ export default function About() {
               {' '}
               The School of Code
             </a>{' '}
-            where I was able to learn about coding and also able to improve my
-            teamworking capabilites. The course used paired coding throughout
+            where I was able to learn about coding with JavaScript and the full life-cycle of building an application,
+             from the design phase all the way through to deployment. The course used paired coding throughout
             and involved two group projects working with larger teams, for 1
             week and 4 weeks respectively. These were great opportunites gain an
             understanding of how to apply agile methodology in the work place. I
