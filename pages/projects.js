@@ -11,6 +11,7 @@ import oneshop from '../assets/onestop.PNG'
 import oneshopTwo from '../assets/onestopshop.PNG'
 import study from '../assets/studystaxx.PNG'
 import studyTwo from '../assets/studyhome.PNG'
+import quizOne from '../assets/quizapp.PNG'
 
 const projects = [
   {
@@ -70,6 +71,16 @@ const projects = [
         'https://github.com/TomBirbeck/topscorer/tree/main/backend',
       info: `A full stack application that allows users to search through the top scorers in the English Premier League from the 1992/93 season to present day. The React front end, hosted on Netlify, utilisises a stand alone API built using a TDD method, that I'm looking to extend to be able to supply data from the top 5 European leagues over the same time period. The database is hosted using ElephantSQL, with the server hosted through Render.`,
       tech: ['React', 'CSS', 'Netlify', 'Node.js', 'Express.js', 'ElephantSQL', 'Render', 'Jest', 'Supertest', 'Postman'],
+    },
+    {
+      name: "It's a Quiz",
+      img: quizOne.src,
+      imgTwo: quizOne.src,
+      live: 'https://toms-its-a-quiz.netlify.app/',
+      frontend:
+        'https://github.com/TomBirbeck/topscorer/tree/main/backend',
+      info: "A responsive web application made using HTML, CSS and Javascript. The app sources quiz questions from an api. Players are able to select from multiple quiz lengths and categories. The app will track the question number, current score and a player's high score, which are tracked independently so a user can accurately judge how they do in each category for each quiz length. The high scores are store using local storage.",
+      tech: ['CSS', 'HTML', 'JavaScript'],
     },
     {
       name: 'Portfol.io',
