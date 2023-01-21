@@ -11,8 +11,10 @@ import oneshop from '../assets/onestop.PNG'
 import oneshopTwo from '../assets/onestopshop.PNG'
 import study from '../assets/studystaxx.PNG'
 import studyTwo from '../assets/studyhome.PNG'
-import quizOne from '../assets/quizapplogo.PNG'
+import quizOne from '../assets/quizLogo.png'
 import quizTwo from '../assets/quizapp.PNG'
+
+console.log(quizOne.src)
 
 const projects = [
   {
