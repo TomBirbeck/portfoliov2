@@ -14,7 +14,6 @@ import studyTwo from '../assets/studyhome.PNG'
 import quizOne from '../assets/quizLogo.png'
 import quizTwo from '../assets/quizapp.PNG'
 
-console.log(quizOne.src)
 
 const projects = [
   {
