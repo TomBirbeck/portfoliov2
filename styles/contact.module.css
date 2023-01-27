@@ -3,6 +3,25 @@
   text-align: center;
 }
 
+.contact_quote_header {
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.quote_container {
+  align-self: center;
+  width: 60vw;
+}
+
+.quote {
+  text-align: center;
+}
+
+.quote_author {
+  text-align: right;
+}
+
 .contact_page {
   display: flex;
   flex-direction: column;
@@ -13,32 +32,39 @@
   display: flex;
   align-self: center;
   flex-direction: column;
-  width: 30vw;
+  width: 35vw;
   gap: 0.25rem;
+  border: 2px solid var(--secondary-colour);
+  border-radius: 1rem;
+  padding: 1rem 3rem;
 }
 
 .links {
-  margin-top: 5rem;
+  margin-top: 3rem;
   flex-direction: row;
   align-self: center;
 }
 
 .links :hover {
   background-color: aliceblue;
+  border-radius: 1rem;
 }
 
 .form input {
+  height: 2rem;
   border-radius: 0.5rem;
   background-color: rgb(212, 218, 194);
+  padding-left: 0.4rem;
 }
 
 .form textarea {
   min-height: 20vh;
   border-radius: 0.5rem;
   background-color: rgb(212, 218, 194);
+  padding: 0.3rem 0 0 0.4rem;
 }
 
-.button {
+.contact_button {
   font-size: 1.2rem;
   background-color: var(--secondary-colour);
   color: var(--primary-colour);
@@ -49,6 +75,15 @@
   align-self: center;
 }
 
+.quote_button {
+  font-size: 1rem;
+  background-color: var(--secondary-colour);
+  color: var(--primary-colour);
+  padding: 0.2rem;
+  border-radius: 0.5rem;
+  border: 2px solid var(--third-colour);
+  margin-left: 0.5rem;
+}
 
 @media only screen and (max-width:600px) {
   .form {

@@ -1,7 +1,7 @@
 import styles from '../styles/contact.module.css'
 import GithubLogo from '../assets/github.svg'
 import LinkedinLogo from '../assets/linkedin.svg'
-import React from 'react';
+import React, { useState } from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 
 export default function Contact(){
@@ -38,20 +38,32 @@ export default function Contact(){
         field="message"
         errors={state.errors}
       />
-      <button className={styles.button} type="submit" disabled={state.submitting}>
+      <button className={styles.contact_button} type="submit" disabled={state.submitting}>
         Send
       </button>
     </form>
   );
 }
 
+const [quote, setQuote] = useState()
 
-
+const getQuote = async () => {
+  const res = await fetch('https://api.quotable.io/random')
+  const data = await res.json()
+  setQuote({author: data.author, quote: data.content})
+}
 
     return (
         <>
             <h2 className={styles.contact_header}>Contact Me</h2>
+            <h3 className={styles.contact_quote_header}>While you are here, why not grab a quote for your day? <span className={styles.quote_button} onClick={getQuote}>Click Here</span></h3>
         <div className={styles.contact_page}>
+          {quote && 
+          <div className={styles.quote_container}>
+            <h4 className={styles.quote}>{quote.quote}</h4>
+            <h5 className={styles.quote_author}>-{quote.author}</h5>
+          </div>
+          }
 <ContactForm />
 <div className={styles.links}>
             {/* Linkedin */}
