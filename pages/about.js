@@ -1,6 +1,7 @@
 import styles from '../styles/about.module.css';
 import pic from '../assets/profile-pic.PNG';
 import Image from 'next/image';
+import Slider from '../components/Slider';
 
 export default function About() {
   return (
@@ -59,6 +60,7 @@ export default function About() {
           </p>
         </span>
       </div>
+      {/* <Slider/> */}
     </>
   );
 }

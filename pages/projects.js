@@ -10,7 +10,9 @@ import scorerTwo from '../assets/topscorerhome.PNG'
 import oneshop from '../assets/onestop.PNG'
 import oneshopTwo from '../assets/onestopshop.PNG'
 import study from '../assets/studystaxx.PNG'
-import studyTwo from '../assets/studyhome.PNG'
+import studyOne from '../assets/studyhome.PNG'
+import studyTwo from '../assets/studytwo.PNG'
+import studyThree from '../assets/studythree.PNG'
 import quizOne from '../assets/quizLogo.png'
 import quizTwo from '../assets/quizapp.PNG'
 
@@ -25,6 +27,7 @@ const projects = [
     backend: 'https://github.com/TomBirbeck/homework-helper-backend',
     info: "A web app written in Typescript that enables a student to create, update, prioritise and track a list of study tasks that they have outstanding, the student side is then linked to a parent side, where progress can be tracked and tasks can be removed when completed. Database is hosted on render.",
     tech: ['React', 'Typescript', 'Tailwind CSS', 'Netlify', 'Node.js', 'Express.js', 'Jest', 'SuperTest', 'Render', 'Thunder Client'],
+    images: [study, studyOne, studyTwo, studyThree]
   },
   {
       name: 'Medi-Check',
@@ -35,7 +38,8 @@ const projects = [
         'https://github.com/SchoolOfCode/final-project_front-end-five-guys',
       backend: 'https://github.com/SchoolOfCode/final-project_back-end-five-guys',
       info: 'Worked in a team of five for four weeks to produce an app to help reduce the amount of errors made when patients were being prescribed medication. We designed the patient side for mobile first and the doctor side for computer usage. The database and servers are hosted using railway.',
-      tech: [ 'React', 'MaterialUI', 'CSS', 'Netlify', 'Node.js', 'Express.js', 'Railway', 'Auth0', 'Jest', 'SuperTest', 'Cypress',]
+      tech: [ 'React', 'MaterialUI', 'CSS', 'Netlify', 'Node.js', 'Express.js', 'Railway', 'Auth0', 'Jest', 'SuperTest', 'Cypress',],
+      images: []
     //   techfront: 'Frontend: React, MaterialUI, CSS, Cypress, Auth0, Netlify.',
     //   techback:
     //     'Backend: Node.js, Express.js, dotenv, Heroku, Jest, Supertest, Postman, cors.',
@@ -46,8 +50,9 @@ const projects = [
     imgTwo: scrabbleTwo.src,
     live: 'https://scrabbledit.netlify.app/',
     frontend: 'https://github.com/TomBirbeck/scrabbledit',
-    info: "A PWA that will calculate the scrabble score for any word that is entered and will allow up to four players to keep track of their cumulative scores as a game progresses. I enjoyed the challenge of trying to get all the functioning parts working together.",
-    tech: ['React', 'CSS', 'Netlify'],
+    info: "A PWA that will calculate the scrabble score for any word that is entered and will allow up to four players to keep track of their cumulative scores as a game progresses. The app has been tested using the React Testing library. I enjoyed the challenge of trying to get all the functioning parts working together.",
+    tech: ['React', 'CSS', 'Netlify', 'Jest'],
+    images: []
   },
   {
     name: 'One Stop Shop',
@@ -58,6 +63,7 @@ const projects = [
       'https://github.com/TomBirbeck/shopping-cart',
     info:'A small multipage e-commerce project where I used React, Bootstrap, Typescript and the fakestoreAPI to create a site that allows users to add/remove items in a cart. Users are also able to filter items by their category. Currently working on integrating a payment system using Stripe.',
     tech: ['React', 'Bootstrap', 'Typescript'],
+    images: []
   },
     {
       name: 'Topscorers',
@@ -70,6 +76,7 @@ const projects = [
         'https://github.com/TomBirbeck/topscorer/tree/main/backend',
       info: `A full stack application that allows users to search through the top scorers in the English Premier League from the 1992/93 season to present day. The React front end, hosted on Netlify, utilisises a stand alone API built using a TDD method, that I'm looking to extend to be able to supply data from the top 5 European leagues over the same time period. The database is hosted using ElephantSQL, with the server hosted through Render.`,
       tech: ['React', 'CSS', 'Netlify', 'Node.js', 'Express.js', 'ElephantSQL', 'Render', 'Jest', 'Supertest', 'Postman'],
+      images: []
     },
     {
       name: "It's a Quiz",
@@ -80,6 +87,7 @@ const projects = [
         'https://github.com/TomBirbeck/topscorer/tree/main/backend',
       info: "A responsive web application made using HTML, CSS and Javascript. Players are able to select from multiple quiz lengths and categories. The app will track the question number, current score and a player's high score, which are tracked independently so a user can accurately judge how they do in each category for each quiz length. The high scores are stored using local storage. The app sources quiz questions from an api.",
       tech: ['CSS', 'HTML', 'JavaScript'],
+      images: []
     },
     {
       name: 'Portfol.io',
@@ -91,6 +99,7 @@ const projects = [
         'https://github.com/SchoolOfCode/w9_backend-project-tom-hannah-ben-and-idman',
       info: 'I worked in a team of four for one week to produce an app to assist current boot-campers. We decided on a portfolio hosting website where users would be to view and upload portfolios at different experience levels, allowing people to always find something to help them and encourage them to keep going on their learning journey.',
       tech: ['React', 'CSS', 'Fontawesome', 'Node.js', 'Express.js', 'Heroku', 'Jest', 'Supertest', 'Postman'],
+      images: []
     //   techfront: 'Frontend: React, CSS, Fontawesome, Jest.',
     //   techback:
     //     'Backend: Node.js, Express.js, dotenv, Heroku, Jest, Supertest, Postman, cors.',

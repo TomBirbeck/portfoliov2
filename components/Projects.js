@@ -9,7 +9,6 @@ export default function Project({projects}){
     const tech = projects.tech
 return (
     <>
-     {/* <h3 className={styles.project_name}>{projects.name}</h3> */}
     <div className={styles.project_con}>
         <div className={styles.imgbuttongroup}>
         {!isHovering ?

@@ -28,7 +28,6 @@
 }
 
 .form {
-  /* margin-top: 5rem; */
   display: flex;
   align-self: center;
   flex-direction: column;
@@ -75,6 +74,11 @@
   align-self: center;
 }
 
+.contact_button:hover {
+  color:aliceblue;
+  scale: 1.1;
+}
+
 .quote_button {
   font-size: 1rem;
   background-color: var(--secondary-colour);
@@ -85,9 +89,13 @@
   margin-left: 0.5rem;
 }
 
+.quote_button:hover {
+  color: antiquewhite;
+  scale: 1.1;
+}
+
 @media only screen and (max-width:600px) {
   .form {
-    /* margin-top: 5rem; */
     display: flex;
     align-self: center;
     flex-direction: column;

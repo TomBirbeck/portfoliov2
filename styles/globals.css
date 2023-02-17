@@ -1,4 +1,5 @@
 :root {
+/* --primary-colour: rgb(78, 74, 74); */
 --primary-colour:#1F3044;
 --secondary-colour:#f8aa18;
 --third-colour: #646C79;
@@ -14,12 +15,8 @@ body {
   margin-top: 2rem;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
   Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    /* background-color:  #35383b; */
-    /* background-color:  #646C79; */
     background-color:  var(--primary-colour);
-    /* background-color: #222; */
     color: var(--secondary-colour);
-    /* color: #FB9039; */
 }
 
 a {
