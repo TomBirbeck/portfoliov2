@@ -47,7 +47,7 @@ const projects = [
     live: 'https://scrabbledit.netlify.app/',
     frontend: 'https://github.com/TomBirbeck/scrabbledit',
     info: "A PWA that will calculate the scrabble score for any word that is entered and will allow up to four players to keep track of their cumulative scores as a game progresses. I enjoyed the challenge of trying to get all the functioning parts working together.",
-    tech: ['React', 'CSS', 'Netlify'],
+    tech: ['React', 'CSS', 'Netlify', 'Jest'],
   },
   {
     name: 'One Stop Shop',
