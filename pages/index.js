@@ -19,13 +19,16 @@ export default function Home() {
         <h2 className={styles.title2}>Full Stack Software Developer</h2>
 
         <div className={styles.button_layout}>
+        <Link href={'/contact'}>
           <button className={styles.buttons}>
-            <Link href={'/contact'}>Contact Me</Link>
+            Contact Me
           </button>
+          </Link>
+          <Link href={'/projects'}>
           <button className={styles.buttons}>
-            <Link href={'/projects'}>Projects</Link>
+           Projects
           </button>
-          {/* <button className={styles.buttons}><Link href={'/about'}>About Me</Link></button> */}
+          </Link>
         </div>
       </main>
     </div>

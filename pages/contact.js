@@ -56,7 +56,7 @@ const getQuote = async () => {
     return (
         <>
             <h2 className={styles.contact_header}>Contact Me</h2>
-            <h3 className={styles.contact_quote_header}>While you are here, why not grab a quote for your day? <span className={styles.quote_button} onClick={getQuote}>Click Here</span></h3>
+            <h3 className={styles.contact_quote_header}>While you are here, why not grab a quote for your day? <button className={styles.quote_button} onClick={getQuote}>Click Here</button></h3>
         <div className={styles.contact_page}>
           {quote && 
           <div className={styles.quote_container}>

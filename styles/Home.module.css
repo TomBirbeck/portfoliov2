@@ -1,5 +1,4 @@
 .buttons {
-  /* background-color: #FB9039; */
   background-color: var(--secondary-colour);
   color: var(--primary-colour);
   font-size: 1.2rem;
@@ -9,7 +8,7 @@
   border: 2px solid var(--third-colour);
 }
 
-.buttons :hover {
+.buttons:hover {
   color: rgb(212, 218, 194);
 }
 
