@@ -1,8 +1,14 @@
 :root {
---primary-colour:#1F3044;
---secondary-colour:#f8aa18;
---third-colour: #646C79;
---icon-colour: #f8aa18;
+/* --primary-colour:#1F3044; */
+/* --primary-colour:#181726; */
+/* grey */
+--primary-colour:#1E1C21;
+/* --secondary-colour:#f8aa18; */
+/* pinkish */
+--secondary-colour:#DA9F93;
+--third-colour: #DEE3E1;
+--icon-colour: #DA9F93;
+/* --icon-colour: #f8aa18; */
 --section-header-size: 2.5rem;
 }
 
@@ -14,12 +20,8 @@ body {
   margin-top: 2rem;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
   Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    /* background-color:  #35383b; */
-    /* background-color:  #646C79; */
     background-color:  var(--primary-colour);
-    /* background-color: #222; */
-    color: var(--secondary-colour);
-    /* color: #FB9039; */
+    color: var(--third-colour);
 }
 
 a {
