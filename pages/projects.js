@@ -13,6 +13,8 @@ import study from '../assets/studystaxx.PNG'
 import studyTwo from '../assets/studyhome.PNG'
 import quizOne from '../assets/quizLogo.png'
 import quizTwo from '../assets/quizapp.PNG'
+import resultsSummary from '../assets/results-summary.PNG'
+import NFT from '../assets/NFT-preview.PNG'
 
 
 const projects = [
@@ -82,6 +84,26 @@ const projects = [
       tech: ['CSS', 'HTML', 'JavaScript'],
     },
     {
+      name: "Results Summary Component",
+      img: resultsSummary.src,
+      imgTwo: resultsSummary.src,
+      live: 'https://tombirbeck.github.io/frontend-mentor-results-summary-component/',
+      frontend:
+        'https://github.com/TomBirbeck/frontend-mentor-results-summary-component',
+      info: "A responsive results summary card component made using HTML, CSS and JavaScript. This was a Frontend Mentor challenge that I have recently completed.",
+      tech: ['CSS', 'HTML', 'JavaScript'],
+    },
+    {
+      name: "NFT preview card",
+      img: NFT.src,
+      imgTwo: NFT.src,
+      live: 'https://tombirbeck.github.io/nft-preview-card/',
+      frontend:
+        'https://github.com/TomBirbeck/nft-preview-card',
+      info: "A responsive NFT preview card made using HTML, CSS and JavaScript. This was a Frontend Mentor challenge that I have recently completed.",
+      tech: ['CSS', 'HTML', 'JavaScript'],
+    },
+    {
       name: 'Portfol.io',
       img: port.src,
       imgTwo: port.src,
@@ -91,9 +113,6 @@ const projects = [
         'https://github.com/SchoolOfCode/w9_backend-project-tom-hannah-ben-and-idman',
       info: 'I worked in a team of four for one week to produce an app to assist current boot-campers. We decided on a portfolio hosting website where users would be to view and upload portfolios at different experience levels, allowing people to always find something to help them and encourage them to keep going on their learning journey.',
       tech: ['React', 'CSS', 'Fontawesome', 'Node.js', 'Express.js', 'Heroku', 'Jest', 'Supertest', 'Postman'],
-    //   techfront: 'Frontend: React, CSS, Fontawesome, Jest.',
-    //   techback:
-    //     'Backend: Node.js, Express.js, dotenv, Heroku, Jest, Supertest, Postman, cors.',
     },
     
   ];
