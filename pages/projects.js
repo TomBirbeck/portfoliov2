@@ -15,6 +15,7 @@ import quizOne from '../assets/quizLogo.png'
 import quizTwo from '../assets/quizapp.PNG'
 import resultsSummary from '../assets/results-summary.PNG'
 import NFT from '../assets/NFT-preview.PNG'
+import boxShooter from '../assets/box-shooter.PNG'
 
 
 const projects = [
@@ -81,6 +82,16 @@ const projects = [
       frontend:
         'https://github.com/TomBirbeck/topscorer/tree/main/backend',
       info: "A responsive web application made using HTML, CSS and Javascript. Players are able to select from multiple quiz lengths and categories. The app will track the question number, current score and a player's high score, which are tracked independently so a user can accurately judge how they do in each category for each quiz length. The high scores are stored using local storage. The app sources quiz questions from an api.",
+      tech: ['CSS', 'HTML', 'JavaScript'],
+    },
+    {
+      name: "Box Shooter",
+      img: boxShooter.src,
+      imgTwo: boxShooter.src,
+      live: 'https://tombirbeck.github.io/js-box-shooter/',
+      frontend:
+        'https://github.com/TomBirbeck/js-box-shooter',
+      info: "A browser base game made using JavaScript, HTML and CSS. The game involves a player piece moving around a zone shooting bullets at enemies pieces that are constantly in motion. The aim of the game is for the player to destroy as many enemies as they can within a time limit. Creating this game was great for learning to work with classes and partical collision in JavaScript.",
       tech: ['CSS', 'HTML', 'JavaScript'],
     },
     {
