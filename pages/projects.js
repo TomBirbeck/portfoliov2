@@ -16,6 +16,7 @@ import quizTwo from '../assets/quizapp.PNG'
 import resultsSummary from '../assets/results-summary.PNG'
 import NFT from '../assets/NFT-preview.PNG'
 import boxShooter from '../assets/box-shooter.PNG'
+import ucardTwo from '../assets/u-card-example.PNG'
 
 
 const projects = [
@@ -53,16 +54,6 @@ const projects = [
     tech: ['React', 'CSS', 'Netlify', 'Jest'],
   },
   {
-    name: 'One Stop Shop',
-    img: oneshop.src,
-    imgTwo: oneshopTwo.src,
-    live: 'https://one-stop-shopping.netlify.app/',
-    frontend:
-      'https://github.com/TomBirbeck/shopping-cart',
-    info:'A small multipage e-commerce project where I used React, Bootstrap, Typescript and the fakestoreAPI to create a site that allows users to add/remove items in a cart. Users are also able to filter items by their category. Currently working on integrating a payment system using Stripe.',
-    tech: ['React', 'Bootstrap', 'Typescript'],
-  },
-    {
       name: 'Topscorers',
       img: scorer.src,
       imgTwo: scorerTwo.src,
@@ -75,14 +66,14 @@ const projects = [
       tech: ['React', 'CSS', 'Netlify', 'Node.js', 'Express.js', 'ElephantSQL', 'Render', 'Jest', 'Supertest', 'Postman'],
     },
     {
-      name: "It's a Quiz",
-      img: quizOne.src,
-      imgTwo: quizTwo.src,
-      live: 'https://toms-its-a-quiz.netlify.app/',
+      name: "U-Card",
+      img: ucardTwo.src,
+      imgTwo: ucardTwo.src,
+      live: 'https://u-card.netlify.app/',
       frontend:
-        'https://github.com/TomBirbeck/topscorer/tree/main/backend',
-      info: "A responsive web application made using HTML, CSS and Javascript. Players are able to select from multiple quiz lengths and categories. The app will track the question number, current score and a player's high score, which are tracked independently so a user can accurately judge how they do in each category for each quiz length. The high scores are stored using local storage. The app sources quiz questions from an api.",
-      tech: ['CSS', 'HTML', 'JavaScript'],
+        'https://github.com/TomBirbeck/personal-card-designer',
+      info: "A web application made using React with Typescript and CSS, tested using React testing libary with Jest. A user is able to create their own personalised card image. They can add their own name and tagline, users are able to choose from several avatars, fonts, layouts, sizes, background and border styles, and pick the colors they want. When finished the user download a copy of their card. I am currently working on a database with MongoDB so that users will be able to save the designs so that they will appear in the right-side suggestion list for other people.",
+      tech: ['React', 'TypeScript', 'CSS', 'Jest'],
     },
     {
       name: "Box Shooter",
@@ -92,6 +83,26 @@ const projects = [
       frontend:
         'https://github.com/TomBirbeck/js-box-shooter',
       info: "A browser base game made using JavaScript, HTML and CSS. The game involves a player piece moving around a zone shooting bullets at enemies pieces that are constantly in motion. The aim of the game is for the player to destroy as many enemies as they can within a time limit. Creating this game was great for learning to work with classes and partical collision in JavaScript.",
+      tech: ['CSS', 'HTML', 'JavaScript'],
+    },
+    {
+      name: 'One Stop Shop',
+      img: oneshop.src,
+      imgTwo: oneshopTwo.src,
+      live: 'https://one-stop-shopping.netlify.app/',
+      frontend:
+        'https://github.com/TomBirbeck/shopping-cart',
+      info:'A small multipage e-commerce project where I used React, Bootstrap, Typescript and the fakestoreAPI to create a site that allows users to add/remove items in a cart. Users are also able to filter items by their category. Currently working on integrating a payment system using Stripe.',
+      tech: ['React', 'Bootstrap', 'Typescript'],
+    },
+    {
+      name: "It's a Quiz",
+      img: quizOne.src,
+      imgTwo: quizTwo.src,
+      live: 'https://toms-its-a-quiz.netlify.app/',
+      frontend:
+        'https://github.com/TomBirbeck/topscorer/tree/main/backend',
+      info: "A responsive web application made using HTML, CSS and Javascript. Players are able to select from multiple quiz lengths and categories. The app will track the question number, current score and a player's high score, which are tracked independently so a user can accurately judge how they do in each category for each quiz length. The high scores are stored using local storage. The app sources quiz questions from an api.",
       tech: ['CSS', 'HTML', 'JavaScript'],
     },
     {
