@@ -16,6 +16,8 @@ import quizTwo from '../assets/quizapp.PNG'
 import resultsSummary from '../assets/results-summary.PNG'
 import NFT from '../assets/NFT-preview.PNG'
 import boxShooter from '../assets/box-shooter.PNG'
+import boxShooterTwo from '../assets/box-shooter-logo.png'
+import ucardOne from '../assets/u-card-main.PNG'
 import ucardTwo from '../assets/u-card-example.PNG'
 
 
@@ -67,7 +69,7 @@ const projects = [
     },
     {
       name: "U-Card",
-      img: ucardTwo.src,
+      img: ucardOne.src,
       imgTwo: ucardTwo.src,
       live: 'https://u-card.netlify.app/',
       frontend:
@@ -77,7 +79,7 @@ const projects = [
     },
     {
       name: "Box Shooter",
-      img: boxShooter.src,
+      img: boxShooterTwo.src,
       imgTwo: boxShooter.src,
       live: 'https://tombirbeck.github.io/js-box-shooter/',
       frontend:
