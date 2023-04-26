@@ -7,8 +7,6 @@
   border-radius: 1rem;
   padding: 0.5rem;
   margin: 1rem;
-  /* background-color: var(--secondary-colour); */
-  /* background-color: var(--third-colour); */
   background-color: rgb(212, 218, 194);
   color: var(--primary-colour);
 }
@@ -30,25 +28,18 @@
   display: flex;
   gap: 8rem;
   justify-content: center;
-  /* max-height: 40vh; */
 }
 
 .imgbuttongroup {
   margin: 1rem 0;
 }
 .img {
-  /* height: 50vh; */
-  /* width: 40vw; */
-  /* margin: 0 1rem 1rem 1rem; */
   border-radius: 1rem;
   border: 2px solid var(--secondary-colour);
   transition: scale 2s;
 }
 
 .img:hover {
-  /* height: 50vh; */
-  /* width: 40vw; */
-  /* margin: 0 1rem 1rem 1rem; */
   border-radius: 5rem;
   border: 5px solid var(--secondary-colour);
   scale: 1.1;
@@ -64,7 +55,6 @@
   border-radius: 1rem;
   border: 2px solid var(--secondary-colour);
   overflow: hidden;
-  /* justify-content: space-between; */
 }
 
 .project_name {
@@ -93,9 +83,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0.3rem;
+  padding: 0.2rem 0.4rem;
   width: auto;
-  border-radius: 0.5rem;
+  border-radius: 0.25rem;
   font-size: 1rem;
   font-weight: bold;
   background-color: var(--secondary-colour);
@@ -103,7 +93,7 @@
 }
 
 .links_buttons {
-  height: 2.5rem;
+  padding: 0.3rem 0.3rem;
   width: fit-content;
   border-radius: 0.5rem;
   font-size: 1.2rem;

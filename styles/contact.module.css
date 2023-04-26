@@ -29,7 +29,6 @@
 }
 
 .form {
-  /* margin-top: 5rem; */
   display: flex;
   align-self: center;
   flex-direction: column;
@@ -85,9 +84,10 @@
   background-color: var(--secondary-colour);
   color: var(--primary-colour);
   padding: 0.2rem;
-  border-radius: 0.5rem;
+  border-radius: 0.25rem;
   border: 2px solid var(--third-colour);
   margin-left: 0.5rem;
+  text-align: center;
 }
 
 .quote_button:hover {
